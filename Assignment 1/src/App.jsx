@@ -8,7 +8,7 @@ import Education from "./pages/Education";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 
-function MainRouter() {
+function App() {
   return (
     <BrowserRouter>
       <Navbar />
@@ -25,4 +25,4 @@ function MainRouter() {
   );
 }
 
-export default MainRouter;
+export default App;

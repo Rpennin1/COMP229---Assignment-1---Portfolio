@@ -1,29 +1,30 @@
+import PageContainer from "../components/PageContainer";
 import { Link } from "react-router-dom";
 
-function Home() {
+export default function Home() {
     return (
+        <PageContainer>
         <main>
             <section className="home-section">
                 <h1> Welcome to My Portfolio.</h1>
 
-                <h2>Hello, I am learning to become a software developer!</h2>
-
                 <p>
-                    Welcome to my portfolio. This website showcases my education, projects, technical interests, and the skills I am developing throughout my studies.
-                </p>   
+                    Hi, I'm Rebecca — a Software Engineering student building my skills one project at a time.
 
+                      Here you'll find a collection of my projects, education, technical skills, and the experiences I've gained while studying and developing my skills in technology.
+                
+                </p>
                 <h2> My Mission </h2>
 
                 <p> 
-                    My goal is to continue developing my technical and creative skills while creating useful, accessible, and visually appealing digital experiences.
-                </p>
+                    My goal is to continue growing as a software developer by combining creativity, problem-solving, and technology. I want to build applications and digital experiences that are useful, accessible, and enjoyable to use while continuing to learn and challenge myself along the way.
 
+                </p>
                 <Link to="/about" className="button">
                   Learn More About Me.
                 </Link>     
             </section>
-        </main>        
+        </main>  
+        </PageContainer>      
      );
 }
-
-export default Home;
