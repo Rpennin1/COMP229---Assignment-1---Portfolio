@@ -30,6 +30,8 @@ export default function Contacts() {
     }
 
     return (
+
+        // My form begins here with a blurb about how to use it and the form itself below
         <PageContainer>
 
             <section className="contact-section">
@@ -46,22 +48,30 @@ export default function Contacts() {
                         If you would like to contact me, you can use the information below or send me a message using the contact form. 
                     </p>
 
+                    {/* my email */}
+
                     <div className="contact-detail">
                         <strong>Email</strong>
-                        <p>your-email@example.com</p>
+                        <p>rpennin3@my.centennialcollege.ca</p>
                     </div>
 
-                    <div class="contact-detail">
+                    {/* my phone */}
+
+                    <div className="contact-detail">
                         <strong>Phone</strong>
-                        <p>000-000-0000</p>
+                        <p>123-456-7890</p>
                     </div>
 
-                    <div class="contact-detail">
+                    {/* my location */}
+
+                    <div className="contact-detail">
                         <strong>Location</strong>
                         <p> Toronto, Ontario, Canada </p>
                     </div>
                 
                 </div>
+
+                {/* my form for contacting me */}
 
                 <form onSubmit={handleSubmit}>
 
@@ -97,9 +107,11 @@ export default function Contacts() {
 
                     <button type="submit">
                         Send Message
-                    </button>
+                    </button> 
 
                 </form>
+
+                {/* end of my form */}
 
             </div> 
 

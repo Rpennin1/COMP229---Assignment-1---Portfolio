@@ -1,3 +1,5 @@
+// created my pathway and connected my page links together.
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 

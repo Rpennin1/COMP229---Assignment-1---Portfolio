@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// This created my nav bar at the top with my logo.
 function Navbar() {
     return (
         <nav> 

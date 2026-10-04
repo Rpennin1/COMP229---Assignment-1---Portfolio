@@ -1,5 +1,7 @@
 import PageContainer from "../components/PageContainer";
 
+// services that I can offer to an employer
+
 export default function Services() {
     return (
                 <PageContainer> 
@@ -18,9 +20,11 @@ export default function Services() {
 
                             <div className="service-image"> 
                             
-                                <img src="/web-development.jpg" alt="Web development project" /> 
+                                <img src="/webdev.png" alt="Web development project" /> 
 
                     </div> 
+
+                    {/* web dev services */}
 
                     <div className="service-info"> 
 
@@ -36,9 +40,11 @@ export default function Services() {
 
                             <div className="service-image"> 
 
-                                <img src="/programming.jpg" alt="Programming project" /> 
+                                <img src="/javaproject.png" alt="Programming project" /> 
 
                             </div> 
+
+                            {/* programming services  */}
 
                     <div className="service-info"> 
 
@@ -54,9 +60,11 @@ export default function Services() {
 
                         <div className="service-image"> 
 
-                                <img src="/database.jpg" alt="Database development project" /> 
+                                <img src="/sqldev.png" alt="Database development project" /> 
 
                         </div> 
+
+                        {/* database  services */}
 
                     <div className="service-info"> 
 
@@ -72,9 +80,11 @@ export default function Services() {
 
                             <div className="service-image"> 
 
-                                <img src="/software-design.jpg" alt="Software design diagram" /> 
+                                <img src="/systemdesign.png" alt="Software design diagram" /> 
 
                             </div> 
+
+                            {/* system design paperwork */}
 
                     <div className="service-info"> 
 

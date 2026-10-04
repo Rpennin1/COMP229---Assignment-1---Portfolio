@@ -1,11 +1,16 @@
 import PageContainer from "../components/PageContainer";
 import { Link } from "react-router-dom";
 
+// my home page with my welcome and mission statements for viewers to see
+
 export default function Home() {
     return (
         <PageContainer>
         <main>
             <section className="home-section">
+
+{/* my home and landing page welcome  */}
+
                 <h1> Welcome to My Portfolio.</h1>
 
                 <p>
@@ -14,6 +19,9 @@ export default function Home() {
                       Here you'll find a collection of my projects, education, technical skills, and the experiences I've gained while studying and developing my skills in technology.
                 
                 </p>
+
+{/* my mission statement */}
+
                 <h2> My Mission </h2>
 
                 <p> 

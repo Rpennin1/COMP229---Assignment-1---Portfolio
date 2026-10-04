@@ -2,6 +2,7 @@ import PageContainer from "../components/PageContainer";
 
 export default function Education() {
     return (
+        // my education section with my upgrading, current program, and professional development information 
         <PageContainer>
 
             <section className="education-section">
@@ -13,6 +14,30 @@ export default function Education() {
                 My education and ongoing learning have helped me develop technical, analytical, and problem-solving skills in software development.
 
                 </p>
+
+                {/* my upgrading classes  */}
+
+                 <article className="education-card">
+
+                    <div className="education-year">
+                   
+                    2022 - 2024 
+
+                    </div>
+
+                    <div className="education-info">
+
+                        <h2>Upgrading classes</h2>
+
+                        <p> 
+                            Spent this time upgrading my knowledge so that I could go back to school and begin my Software Engineering Technician program. 
+                        </p>
+
+                    </div>    
+
+                  </article> 
+
+                  {/* current program info */}   
 
                   <article className="education-card">
 
@@ -36,6 +61,8 @@ export default function Education() {
                     </div>   
 
                   </article>  
+
+                  {/* other professional details */}
 
                   <article className="education-card">
 
